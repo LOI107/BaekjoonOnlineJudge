@@ -32,7 +32,7 @@ int main()
 
 	for (int i = 0; i < n; i++)
 	{
-		for (int j = 0; j < n - i - 1; j++) // (n - 줄번호)만큼 *을 출력
+		for (int j = 0; j < n - i - 1; j++) // (n - 줄번호)만큼 공백을 출력
 			cout << " ";
 		
 		for (int j = 0; j <= i; j++) // 줄번호만큼 *을 출력
